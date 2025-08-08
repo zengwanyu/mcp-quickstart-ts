@@ -36,7 +36,7 @@ function formatAlert(feature) {
 // Create server instance
 const server = new McpServer({
     name: "weather",
-    version: "1.0.2",
+    version: "1.0.4",
 });
 // Register weather tools
 server.tool("get-alerts", "Get weather alerts for a state", {
