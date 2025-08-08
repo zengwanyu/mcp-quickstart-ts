@@ -75,7 +75,7 @@ interface ForecastResponse {
 // Create server instance
 const server = new McpServer({
   name: "weather",
-  version: "1.0.4",
+  version: "1.0.5",
 });
 
 // Register weather tools
